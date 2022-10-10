@@ -1,0 +1,44 @@
+@import "src/pages/components/popover/popover.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  *:focus-visible {
+    outline: none;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: theme('colors.slate.100');
+}
+
+html.dark, html.dark body {
+  background-color: theme('colors.dark.html');
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*@media (prefers-color-scheme: dark) {*/
+/*  html {*/
+/*    color-scheme: dark;*/
+/*  }*/
+/*  body {*/
+/*    color: white;*/
+/*    background: black;*/
+/*  }*/
+/*}*/

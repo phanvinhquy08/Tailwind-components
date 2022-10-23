@@ -12,11 +12,11 @@ module.exports = {
       return {
         ...colors,
         primary: {
-          DEFAULT: colors.pink['500'],
-          hover: colors.pink['600'],
-          focus: colors.pink['700'],
-          disabled: colors.pink['300'],
-          shadow: colors.pink['300'],
+          DEFAULT: colors.purple['500'],
+          hover: colors.purple['600'],
+          focus: colors.purple['700'],
+          disabled: colors.purple['300'],
+          shadow: colors.purple['300'],
           text: colors.white,
         },
         secondary: {

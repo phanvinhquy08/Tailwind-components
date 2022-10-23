@@ -1,9 +1,8 @@
-@import "src/pages/components/popover/popover.css";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@import "src/pages/components/popover/popover.css";
 
 @layer base {
   *:focus-visible {
